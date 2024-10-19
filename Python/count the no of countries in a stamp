@@ -1,0 +1,18 @@
+n = int(input())  
+stamps = [input().strip() for _ in range(n)]
+print(len(set(stamps)))
+
+
+Input (stdin)
+7
+UK
+China
+USA
+France
+New Zealand
+UK
+France
+Expected Output
+5
+Your Output (stdout)
+5
